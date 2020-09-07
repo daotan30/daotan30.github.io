@@ -14,6 +14,13 @@
 	
 </head>
 <body>
+	<button onClick="topFunction()" id="mybtn" title="On Top"><i class="fa fa-arrow-up" aria-hidden="true"></i></button>
+	<nav class="navbar navbar-light bg-light static-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">Dumbomai</a>
+      <a class="btn btn-primary" href="#contactme">Contact me</a>
+    </div>
+  </nav>
 <header>
 <div class="container-fluid">
 	<div class="header">
@@ -25,22 +32,22 @@
 var typed = new Typed('.element', {
   // Waits 1000ms after typing "First"
   strings: ['First ^1000 sentence.', 'Badboy'],
-typeSpeed:60,
-	backSpeed:60,
-	loop:true
+typeSpeed:100,
+	backSpeed:100,
+	loop:true,
 });
 	</script>
 </div>
 	</div>
 </header>
 	<section>
-	<div class="infor">
+	<div>
 		<div class="container-fluid">
   <div class="row">
-	<div class="col-lg-6  col-xl-4"><img src="z2041363199774_4613c0e78ad340da2b5de99a59ea1719.jpg" alt="#">
+	<div class="col-lg-6 col-xl-4"><img src="z2041363199774_4613c0e78ad340da2b5de99a59ea1719.jpg" alt="#" class="hinhavt">
 	</div>
-    <div  class="col-lg-6 col-xl-7">
-	  <h1>DumboMai</h1>
+    <div  class="col-lg-6 col-xl-8">
+	  <h1>I'm DumboMai</h1>
       <p> When you use a theme created by Start Bootstrap, you know that the theme will look great on any device, whether it's a phone, tablet, or desktop the page will behave responsively! When you use a theme created by Start Bootstrap, you know that the theme will look great on any device, whether it's a phone, tablet, or desktop the page will behave responsively When you use a theme created by Start Bootstrap, you know that the theme will look great on any device, whether it's a phone, tablet, or desktop the page will behave When you use a theme created by Start Bootstrap, you know that the theme will look great on any device, whether it's a phone, tablet, or desktop the page will behave responsively!</p>
 	  </div>
 	</div>
@@ -80,31 +87,57 @@ typeSpeed:60,
 	<section class="title">
 		<p><strong>PORTPOLIO</strong></p>
 		</section>
-	<div class="content">
-		<div class="item">
-		<img src="original_261070_31czGVww8AcBfrrm9vRy6lyPo.jpg" alt="#">
+	<div class="container hinhanh">
+	<div class="row">
+		<div class="col-4"><img src="Art_Nouveau_by_ClanSoul.jpg" alt="#"></div>
+		<div class="col-4"><img src="Bauhaus_Poster.jpg" alt="#" class="img2"></div>
+		<div class="col-4"><img src="biltmore_poster.jpg" alt="#"></div>
+	<div class="container hinhanh">
+		<div class="row">
+		<div class="col-4"><img src="birch_full.jpg" alt="#"></div>
+		<div class="col-4"><img src="original_261070_31czGVww8AcBfrrm9vRy6lyPo.jpg" alt="#"></div>
+		<div class="col-4"><img src="poster-vertigo_01.jpg" alt="#"></div>
+		</div>
+		</div>
+			
+		</div>
 	</div>
-		<div class="item">
-		<img src="Art_Nouveau_by_ClanSoul.jpg" alt="#">
-	</div>
-		<div class="item">
-		<img src="Bauhaus_Poster.jpg" alt="#">
-	</div>
-		<div class="item">
-		<img src="biltmore_poster.jpg" alt="#">
-	</div>
-		<div class="item">
-		<img src="birch_full.jpg" alt="#">
-	</div>
-		<div class="item">
-		<img src="poster-vertigo_01.jpg" alt="#">
-	</div>
-	</div>
-	<section class="thongtin text-center">
+	
+	<section class="testimonials text-center bg-light">
+    <div class="container">
+      <h2 class="mb-5">Some my feedback</h2>
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+            <img class="img-fluid rounded-circle mb-3" src="OIP (1).jpg" alt="#">
+            <h5>Phương Yến</h5>
+            <p class="font-weight-light mb-0">"Dịch vụ tốt, web sáng tạo!"</p>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+            <img class="img-fluid rounded-circle mb-3" src="OIP (2).jpg" alt="#">
+            <h5>Phương Thảo</h5>
+            <p class="font-weight-light mb-0">"Bạn này làm tốt lắm nha mọi người"</p>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+            <img class="img-fluid rounded-circle mb-3" src="OIP.jpg" alt="#">
+            <h5>Thành Đạt</h5>
+            <p class="font-weight-light mb-0">"Cám ơn bạn đã tạo giúp mình 1 web bán hàng!"</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+	
+	
+	<section class="thongtin text-center" id="contactme">
 	<h1>CONTACT ME</h1>
 	<p>Out believe has request not how comfort evident. Up delight cousins we feeling
 minutes. Genius has looked end piqued spring. </p>
-		<div class="thongtinicon text-center">
+		<div class="thongtinicon">
 		<div class="container">
 		<div class="row">
 			<div class="col-lg-4">
@@ -144,7 +177,7 @@ minutes. Genius has looked end piqued spring. </p>
 	</section>
 	<footer>
         <div class="container">
-            <div class="social">
+     <div class="social">
                 <a href="#"><i class="fa fa-facebook ficon" aria-hidden="true"></i> </a>
                 <a href="#"><i class="fa fa-twitter ficon" aria-hidden="true"></i> </a>
                 <a href="#"><i class="fa fa-instagram ficon" aria-hidden="true"></i> </a>
@@ -155,5 +188,28 @@ minutes. Genius has looked end piqued spring. </p>
             <p>Copyright © 2020 DumboMai</p>
         </div>
     </footer>
+	<script>
+	
+    //Get the button
+    var mybutton = document.getElementById("mybtn");
+    
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+    
+    function scrollFunction() {
+      if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
+    
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+    
+	</script>
 </body>
 </html>

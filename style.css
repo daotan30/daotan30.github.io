@@ -1,7 +1,19 @@
-
 *{
 	margin: 0;
 	padding: 0;
+}
+#mybtn{
+	display: none;
+	position:fixed;
+	z-index: 99;
+	cursor: pointer;
+	right: 10px;
+	bottom: 10px;
+	boder: none;
+	outline: none;
+	background-color:aqua;
+	width: 30px;
+	height: 30px;
 }
 .header{
 	background-image: url("GettyImages-673747736-5b1989c3fa6bcc003614911a.jpg");
@@ -113,6 +125,34 @@ footer {
 	color: white;
 	padding-left: 30px;
 }
-.content{
-	margin-left: 50px!important;
+@media(min-width:414px){
+	.header h2{
+text-align: center;
+font-size: 40px;
+	}
+	.container p{
+		text-align: center;
+	}
+	}
+.testimonial-item p{
+	color: black;
+}
+.thongtinicon p{
+	color: black;
+	text-align: center;
+}
+.infor{
+	margin-top: -90px;
+}
+.hinhavt{
+	width: 300px;
+}
+.hinhanh img{
+	width: 300px;
+}
+.mb-5{
+	padding-top: 20px;
+}
+.row p{
+	text-align: justify;
 }
